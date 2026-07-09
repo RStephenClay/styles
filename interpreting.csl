@@ -9,12 +9,13 @@
     <link href="https://benjamins.com/catalog/intp/guidelines" rel="documentation"/>
     <author>
       <name>Nannan Liu</name>
-      <email>nnl93@connect.hku.hk</email>
+      <email>nliu9@binghamton.edu</email>
+      <uri>https://www.binghamton.edu/comparative-literature/trip/people/profile.html?id=nliu9</uri>
     </author>
     <category citation-format="author-date"/>
     <issn>1384-6647</issn>
     <eissn>1569-982X</eissn>
-    <updated>2024-09-09T12:53:10+00:00</updated>
+    <updated>2026-07-09T15:56:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -50,7 +51,7 @@
     <names variable="author">
       <name font-variant="normal" and="symbol" delimiter-precedes-last="never" initialize-with=". " name-as-sort-order="all"/>
       <label form="short" text-case="capitalize-first" strip-periods="true" prefix=" (" suffix=".)"/>
-      <et-al term="and others"/>
+      <et-al/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -274,8 +275,8 @@
     <choose>
       <if type="article-journal article-magazine" match="any">
         <group delimiter=", " prefix=" ">
-          <group delimiter=" ">
-            <text variable="volume"/>
+          <group>
+            <text variable="volume" font-style="italic"/>
             <text variable="issue" prefix="(" suffix=")"/>
           </group>
           <text variable="page"/>
