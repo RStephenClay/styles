@@ -16,9 +16,7 @@
     <category field="theology"/>
     <summary>The notes-and-bibliography style prescribed by the Dallas Theological Seminary Academic Style Guide</summary>
     <updated>2026-07-15T14:45:31+00:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">
-  This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
-</rights>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <terms>
@@ -279,20 +277,7 @@
       </else>
     </choose>
   </macro>
-  <macro name="title-short-string">
-    <choose>
-      <if variable="title-short">
-        <text variable="title-short"/>
-      </if>
-      <else-if variable="title">
-        <text variable="title" form="short"/>
-      </else-if>
-      <else>
-        <text value=""/>
-      </else>
-    </choose>
-  </macro>
-  <macro name="title-short">
+   <macro name="title-short">
     <choose>
       <if type="article article-journal article-magazine article-newspaper chapter paper-conference entry entry-dictionary entry-encyclopedia review review-book" match="any">
         <choose>
