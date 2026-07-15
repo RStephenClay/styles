@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" default-locale="en-US">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/codeEditor/) -->
   <info>
@@ -277,7 +278,7 @@
       </else>
     </choose>
   </macro>
-   <macro name="title-short">
+  <macro name="title-short">
     <choose>
       <if type="article article-journal article-magazine article-newspaper chapter paper-conference entry entry-dictionary entry-encyclopedia review review-book" match="any">
         <choose>
